@@ -13,5 +13,10 @@ namespace TP_Web_Equipo7B
         {
 
         }
+
+        protected void btnCanjear_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
