@@ -7,3 +7,12 @@ C:\Users\Franco\Desktop\TP_Equipo7b\tp-winform-equipo-7b\TPWinForm_Equipo7B\Nego
 C:\Users\Franco\Desktop\TP_Equipo7b\tp-winform-equipo-7b\TPWinForm_Equipo7B\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Franco\Desktop\TP_Equipo7b\tp-winform-equipo-7b\TPWinForm_Equipo7B\Negocio\obj\Debug\Negocio.dll
 C:\Users\Franco\Desktop\TP_Equipo7b\tp-winform-equipo-7b\TPWinForm_Equipo7B\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Negocio.dll
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Dominio.dll
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.dll
+C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.pdb
