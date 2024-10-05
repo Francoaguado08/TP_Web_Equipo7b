@@ -11,7 +11,7 @@ namespace Dominio
 
         public string CodigoVoucher { get; set; }
         public Cliente Cliente { get; set; } // Relación con el cliente
-        public DateTime FechaCanje { get; set; } // Fecha cuando el voucher fue canjeado
+        public DateTime? FechaCanje { get; set; } // Fecha cuando el voucher fue canjeado
         public Articulo Articulo { get; set; } // Premio seleccionado
 
 
