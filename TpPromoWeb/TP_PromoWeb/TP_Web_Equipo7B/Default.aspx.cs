@@ -20,26 +20,28 @@ namespace TP_Web_Equipo7B
         {
 
 
-
-            string codigoVoucher = txtCodigoVoucher.Text;
-
+            string codigoVoucher = txtCodigoVoucher.Text.Trim();
             VoucherNegocio voucherNegocio = new VoucherNegocio();
             Voucher voucher = voucherNegocio.ObtenerVoucher(codigoVoucher);
 
-            if (voucher != null && voucher.FechaCanje == null)
+            if (voucher == null)
             {
-                // Guardamos el código de voucher en la sesión y redirigimos
-                Session["CodigoVoucher"] = codigoVoucher;
-                Response.Redirect("CanjeVoucher.aspx");
+                // El voucher no existe o es incorrecto
+                // Muestra un mensaje de error al usuario
+                lblMensaje.Text = "El código de voucher ingresado no es válido. Por favor, verifique e intente nuevamente.";
+                lblMensaje.CssClass = "text-danger"; // Agrega una clase para estilizar el mensaje
             }
             else
             {
-                // Mensaje de error si el voucher no es válido o ya fue canjeado
-                Response.Write("<script>alert('Voucher inválido o ya canjeado');</script>");
+                // El voucher es válido, procede con el canje
+                // Aquí podrías agregar la lógica para registrar el canje y mostrar un mensaje de éxito
+                lblMensaje.Text = "¡Canje exitoso! Has canjeado el voucher.";
+                lblMensaje.CssClass = "text-success"; // Agrega una clase para estilizar el mensaje
             }
-
-
-
         }
+
+
+
+        
     }
 }

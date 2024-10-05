@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("SELECT * FROM Vouchers WHERE Codigo = @CodigoVoucher");
+                datos.setearConsulta("SELECT * FROM Vouchers WHERE CodigoVoucher = @CodigoVoucher");
                 datos.setearParametro("@CodigoVoucher", codigoVoucher);
                 datos.ejecutarLectura();
 
@@ -25,14 +25,16 @@ namespace Negocio
                 {
                     voucher = new Voucher
                     {
-                        CodigoVoucher = (string)datos.Lector["Codigo"],
+                        CodigoVoucher = (string)datos.Lector["CodigoVoucher"],
                         FechaCanje = datos.Lector["FechaCanje"] != DBNull.Value ? (DateTime?)datos.Lector["FechaCanje"] : null
                     };
                 }
             }
             catch (Exception ex)
             {
-                throw ex;
+                // Manejar la excepción (log, mostrar mensaje, etc.)
+                throw new Exception("Error al obtener el voucher: " + ex.Message);
+
             }
             finally
             {
@@ -48,7 +50,7 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("UPDATE Vouchers SET FechaCanje = GETDATE(), IdArticulo = @IdArticulo WHERE Codigo = @CodigoVoucher");
+                datos.setearConsulta("UPDATE Vouchers SET FechaCanje = GETDATE(), IdArticulo = @IdArticulo WHERE CodigoVoucher = @CodigoVoucher");
                 datos.setearParametro("@CodigoVoucher", codigoVoucher);
                 datos.setearParametro("@IdArticulo", idArticulo);
                 datos.ejecutarAccion();

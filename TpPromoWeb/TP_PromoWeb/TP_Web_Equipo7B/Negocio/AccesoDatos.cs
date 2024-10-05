@@ -23,7 +23,7 @@ namespace Negocio
         //Centralizamos la cadena de conexion.
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true"); 
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=PROMOS_DB; integrated security=true"); 
             comando = new SqlCommand(); // por si quiero hacer una consulta/accion contra la BD
         }
 
