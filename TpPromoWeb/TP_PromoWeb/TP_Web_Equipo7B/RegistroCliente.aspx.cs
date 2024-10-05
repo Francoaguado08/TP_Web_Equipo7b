@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dominio;
+using Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,5 +15,28 @@ namespace TP_Web_Equipo7B
         {
 
         }
+
+        protected void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente
+            {
+                Documento = txtDocumento.Text,
+                Nombre = txtNombre.Text,
+                Apellido = txtApellido.Text,
+                Email = txtEmail.Text,
+                Direccion = txtDireccion.Text,
+                Ciudad = txtCiudad.Text,
+                CP = int.Parse(txtCP.Text)
+            };
+
+            ClienteNegocio clienteNegocio = new ClienteNegocio();
+            clienteNegocio.Registrar(cliente);
+
+            Response.Write("<script>alert('Registro completado con éxito');</script>");
+        }
+   
+    
+    
     }
+    
 }
