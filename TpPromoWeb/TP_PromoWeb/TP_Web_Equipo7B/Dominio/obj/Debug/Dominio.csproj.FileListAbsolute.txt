@@ -16,3 +16,9 @@ D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B
 D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.dll
 D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\bin\Debug\Dominio.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\bin\Debug\Dominio.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Dominio\obj\Debug\Dominio.pdb

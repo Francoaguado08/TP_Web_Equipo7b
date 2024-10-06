@@ -41,6 +41,7 @@ namespace TP_Web_Equipo7B
                   */
 
                     Response.Redirect("CanjeVoucher.aspx");
+                   
                 }
                 else
                 {

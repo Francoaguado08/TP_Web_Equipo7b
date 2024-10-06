@@ -389,3 +389,33 @@ D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B
 D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_E.BE7D2E09.Up2Date
 D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_Equipo7B.dll
 D:\ProyectoProgra3\Tp web\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_Equipo7B.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\TP_Web_Equipo7B.dll.config
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\TP_Web_Equipo7B.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\TP_Web_Equipo7B.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Antlr3.Runtime.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\AspNet.ScriptManager.jQuery.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Dominio.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.ScriptManager.WebForms.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.Web.Infrastructure.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Negocio.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Newtonsoft.Json.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\System.Web.Optimization.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\WebGrease.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Dominio.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Negocio.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\System.Web.Optimization.xml
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Newtonsoft.Json.xml
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Antlr3.Runtime.pdb
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\es\System.Web.Optimization.resources.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_Equipo7B.csproj.AssemblyReference.cache
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_Equipo7B.csproj.CoreCompileInputs.cache
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_E.BE7D2E09.Up2Date
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_Equipo7B.dll
+E:\TP Progra 3 13.39\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\obj\Debug\TP_Web_Equipo7B.pdb

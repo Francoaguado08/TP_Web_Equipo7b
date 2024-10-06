@@ -13,6 +13,12 @@ namespace TP_Web_Equipo7B
         {
             if (!IsPostBack)
             {
+                // Solo como verificacion temporal
+                if (Session["CodigoVoucher"] == null)
+                {
+                    Session["CodigoVoucher"] = "12345";  // Asigna un valor temporal para pruebas
+                }
+
                 // Cargar productos e imágenes solo la primera vez que se carga la página
                 CargarProductosConImagenes();
             }
@@ -43,11 +49,9 @@ namespace TP_Web_Equipo7B
             rptProductos.DataBind();
         }
 
-
-
         protected void btnSeleccionar_Click(object sender, EventArgs e)
         {
-            // Obtener el código del voucher de la sesión
+            // Obtener el codigo del voucher de la sesion
             string codigoVoucher = Session["CodigoVoucher"] as string;
 
             if (!string.IsNullOrEmpty(codigoVoucher))
@@ -59,12 +63,12 @@ namespace TP_Web_Equipo7B
                 VoucherNegocio voucherNegocio = new VoucherNegocio();
                 voucherNegocio.CanjearVoucher(codigoVoucher, idArticuloSeleccionado);
 
-                // Redirigir a la página de registro de cliente
-                Response.Redirect("RegistroCliente.aspx");
+                // Redirigir a la pagina de registro de cliente
+                Response.Redirect("~/IngresaTusDatos.aspx");  
             }
             else
             {
-                // Mostrar un mensaje de error si no se encuentra el código del voucher
+                // Mostrar un mensaje de error si no se encuentra el voucher
                 Response.Write("<script>alert('Error: No se encontró el código del voucher');</script>");
             }
         }
