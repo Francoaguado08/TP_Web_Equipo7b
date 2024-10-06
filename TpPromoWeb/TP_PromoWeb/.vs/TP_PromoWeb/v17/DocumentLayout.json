@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ProyectoProgra3\\TP web sin modificar\\TP_Web_Equipo7b\\TpPromoWeb\\TP_PromoWeb\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27DAC9FC-BBB3-40DD-AC13-274AD6C2FBB8}|TP_Web_Equipo7B\\TP_Web_Equipo7B.csproj|d:\\proyectoprogra3\\tp web sin modificar\\tp_web_equipo7b\\tppromoweb\\tp_promoweb\\tp_web_equipo7b\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{27DAC9FC-BBB3-40DD-AC13-274AD6C2FBB8}|TP_Web_Equipo7B\\TP_Web_Equipo7B.csproj|solutionrelative:tp_web_equipo7b\\ingresatusdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IngresaTusDatos.aspx",
+              "DocumentMoniker": "D:\\ProyectoProgra3\\TP web sin modificar\\TP_Web_Equipo7b\\TpPromoWeb\\TP_PromoWeb\\TP_Web_Equipo7B\\IngresaTusDatos.aspx",
+              "RelativeDocumentMoniker": "TP_Web_Equipo7B\\IngresaTusDatos.aspx",
+              "ToolTip": "D:\\ProyectoProgra3\\TP web sin modificar\\TP_Web_Equipo7b\\TpPromoWeb\\TP_PromoWeb\\TP_Web_Equipo7B\\IngresaTusDatos.aspx",
+              "RelativeToolTip": "TP_Web_Equipo7B\\IngresaTusDatos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T20:59:00.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
