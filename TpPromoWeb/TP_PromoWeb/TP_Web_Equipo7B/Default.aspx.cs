@@ -34,9 +34,13 @@ namespace TP_Web_Equipo7B
                 if (voucher.FechaCanje == null)
                 {
                     // El voucher no ha sido canjeado, permite el canje
-                    lblMensaje.Text = "¡Canje exitoso! Has canjeado el voucher.";
+                  /*  lblMensaje.Text = "¡Canje exitoso! Has canjeado el voucher.";
                     lblMensaje.CssClass = "text-success"; // Mensaje de éxito
-                                                          // Aquí puedes agregar la lógica para registrar el canje, como actualizar la FechaCanje
+                    
+                   // Aquí puedes agregar la lógica para registrar el canje, como actualizar la FechaCanje
+                  */
+
+                    Response.Redirect("CanjeVoucher.aspx");
                 }
                 else
                 {

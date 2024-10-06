@@ -33,6 +33,27 @@ namespace TP_Web_Equipo7B
             ddlPremios.DataBind();
         }
 
+        protected void ddlPremios_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Obtener el ID del artículo seleccionado
+            int idArticulo = Convert.ToInt32(ddlPremios.SelectedValue);
+
+            // Obtener la imagen del artículo seleccionado
+            ImagenesNegocio imagenesNegocio = new ImagenesNegocio();
+            List<string> imagenes = imagenesNegocio.listar(idArticulo);
+
+            if (imagenes.Count > 0)
+            {
+                // Mostrar la primera imagen
+                imgPremio.ImageUrl = imagenes[0];
+            }
+            else
+            {
+                // Mostrar una imagen por defecto si no hay imágenes
+                imgPremio.ImageUrl = "~/Images/no-image-available.png";
+            }
+        }
+
 
         protected void btnSeleccionar_Click(object sender, EventArgs e)
         {
