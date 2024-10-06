@@ -18,30 +18,38 @@ namespace TP_Web_Equipo7B
 
         protected void btnCanjear_Click(object sender, EventArgs e)
         {
-
-
-            string codigoVoucher = txtCodigoVoucher.Text.Trim();
-            VoucherNegocio voucherNegocio = new VoucherNegocio();
-            Voucher voucher = voucherNegocio.ObtenerVoucher(codigoVoucher);
+            string codigoVoucher = txtCodigoVoucher.Text.Trim(); // Obtiene el código de voucher ingresado
+            VoucherNegocio voucherNegocio = new VoucherNegocio(); // Instancia la capa de negocio
+            Voucher voucher = voucherNegocio.ObtenerVoucher(codigoVoucher); // Llama al método que busca el voucher
 
             if (voucher == null)
             {
                 // El voucher no existe o es incorrecto
-                // Muestra un mensaje de error al usuario
                 lblMensaje.Text = "El código de voucher ingresado no es válido. Por favor, verifique e intente nuevamente.";
-                lblMensaje.CssClass = "text-danger"; // Agrega una clase para estilizar el mensaje
+                lblMensaje.CssClass = "text-danger"; // Muestra un mensaje de error estilizado
             }
             else
             {
-                // El voucher es válido, procede con el canje
-                // Aquí podrías agregar la lógica para registrar el canje y mostrar un mensaje de éxito
-                lblMensaje.Text = "¡Canje exitoso! Has canjeado el voucher.";
-                lblMensaje.CssClass = "text-success"; // Agrega una clase para estilizar el mensaje
+                // Verifica si el voucher ya fue canjeado
+                if (voucher.FechaCanje == null)
+                {
+                    // El voucher no ha sido canjeado, permite el canje
+                    lblMensaje.Text = "¡Canje exitoso! Has canjeado el voucher.";
+                    lblMensaje.CssClass = "text-success"; // Mensaje de éxito
+                                                          // Aquí puedes agregar la lógica para registrar el canje, como actualizar la FechaCanje
+                }
+                else
+                {
+                    // El voucher ya fue canjeado previamente
+                    lblMensaje.Text = "Este código de voucher ya ha sido utilizado.";
+                    lblMensaje.CssClass = "text-danger"; // Mensaje de error estilizado
+                }
             }
         }
 
 
 
-        
+
+
     }
 }

@@ -16,3 +16,12 @@ C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\N
 C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.dll
 C:\Users\Franco\Desktop\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.pdb
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Negocio.dll
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Negocio.pdb
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Dominio.dll
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\bin\Debug\Dominio.pdb
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.csproj.Up2Date
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.dll
+E:\TP2 Programacion 3\TP_Web_Equipo7b\TpPromoWeb\TP_PromoWeb\TP_Web_Equipo7B\Negocio\obj\Debug\Negocio.pdb
