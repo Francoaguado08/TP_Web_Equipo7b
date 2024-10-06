@@ -25,7 +25,7 @@ namespace TP_Web_Equipo7B
 
                
               
-                Response.Redirect("GraciasPorParticipar.aspx");
+                Response.Redirect("Default.aspx");
             }
         }
     }
