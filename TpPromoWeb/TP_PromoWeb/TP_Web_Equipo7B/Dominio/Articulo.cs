@@ -47,6 +47,7 @@ namespace Dominio
         public int ID { get; set; }
         public string Codigo { get; set; }
         public string Nombre { get; set; }
+        public List<string> Imagenes { get; set; }
 
         [DisplayName("Descripción")]
         public string Descripcion { get; set; }

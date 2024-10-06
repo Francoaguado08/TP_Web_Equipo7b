@@ -3,8 +3,6 @@ using Negocio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace TP_Web_Equipo7B
@@ -15,66 +13,60 @@ namespace TP_Web_Equipo7B
         {
             if (!IsPostBack)
             {
-                // Cargamos los premios solo la primera vez que se carga la página
-                CargarPremios();
+                // Cargar productos e imágenes solo la primera vez que se carga la página
+                CargarProductosConImagenes();
             }
         }
 
-
-
-        private void CargarPremios()
+        private void CargarProductosConImagenes()
         {
             ArticuloNegocio articuloNegocio = new ArticuloNegocio();
             List<Articulo> articulos = articuloNegocio.listar();
 
-            ddlPremios.DataSource = articulos;
-            ddlPremios.DataTextField = "Nombre";
-            ddlPremios.DataValueField = "Id";
-            ddlPremios.DataBind();
-        }
+            // Filtrar solo 3 artículos únicos por su nombre o categoría
+            var articulosUnicos = articulos
+                .GroupBy(a => a.Nombre) // Agrupa por nombre o cualquier otra propiedad
+                .Select(g => g.First())
+                .Take(3) // Tomamos solo 3 artículos únicos
+                .ToList();
 
-        protected void ddlPremios_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            // Obtener el ID del artículo seleccionado
-            int idArticulo = Convert.ToInt32(ddlPremios.SelectedValue);
-
-            // Obtener la imagen del artículo seleccionado
             ImagenesNegocio imagenesNegocio = new ImagenesNegocio();
-            List<string> imagenes = imagenesNegocio.listar(idArticulo);
 
-            if (imagenes.Count > 0)
+            // Cargar las imágenes de cada producto
+            foreach (Articulo articulo in articulosUnicos)
             {
-                // Mostrar la primera imagen
-                imgPremio.ImageUrl = imagenes[0];
+                articulo.Imagenes = imagenesNegocio.listar(articulo.ID);
             }
-            else
-            {
-                // Mostrar una imagen por defecto si no hay imágenes
-                imgPremio.ImageUrl = "~/Images/no-image-available.png";
-            }
+
+            // Asignamos los productos al Repeater
+            rptProductos.DataSource = articulosUnicos;
+            rptProductos.DataBind();
         }
+
 
 
         protected void btnSeleccionar_Click(object sender, EventArgs e)
         {
-
+            // Obtener el código del voucher de la sesión
             string codigoVoucher = Session["CodigoVoucher"] as string;
 
             if (!string.IsNullOrEmpty(codigoVoucher))
             {
-                int idArticuloSeleccionado = int.Parse(ddlPremios.SelectedValue);
+                // Obtener el ID del producto seleccionado del CommandArgument del botón
+                Button btnSeleccionar = (Button)sender;
+                int idArticuloSeleccionado = int.Parse(btnSeleccionar.CommandArgument);
 
                 VoucherNegocio voucherNegocio = new VoucherNegocio();
                 voucherNegocio.CanjearVoucher(codigoVoucher, idArticuloSeleccionado);
 
+                // Redirigir a la página de registro de cliente
                 Response.Redirect("RegistroCliente.aspx");
             }
             else
             {
+                // Mostrar un mensaje de error si no se encuentra el código del voucher
                 Response.Write("<script>alert('Error: No se encontró el código del voucher');</script>");
             }
-
-
         }
     }
 }
